@@ -1,0 +1,7 @@
+1.read number and store in n
+2.create temp and store n
+3.create rev=0
+4.loop until n>0
+4. inside loop rev=rev*10+n%10 and n=n/10
+5.check if rev==temp
+6.if rev==temp  print "palindrome" else "print not a palindrome"
