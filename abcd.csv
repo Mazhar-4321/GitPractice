@@ -1,0 +1,67 @@
+  275  git 
+  276  git status
+  278  ls *.git
+  279  ls -a *.git
+  291  ls -a *.git
+  303  ls -a .git
+  304  ls -a *.git
+  306  rm -rf .git
+  392  ls -a .git
+  393  git clone https://github.com/edurekavivekh/linux-content.git
+  428  rm -rf .git
+  431  git clone https://github.com/edurekavivekh/linux-content.git
+  669  git add palindrome.txt 
+  670  git status
+  671  git commit -m "[Mazhar]pseudo code for palindrome of a number"
+  672  git checkout -b mazhar
+  673  git merge master
+  676  git status
+  677  git push origin mazhar
+  678  git checkout master
+  679  git push origin master
+  680  git clone https://github.com/Mazhar-4321/GitPractice.git
+  683  git clone https://github.com/Mazhar-4321/GitPractice.git
+  684  cd GitPractice/
+  687  git status
+  688  git add palindrome.txt 
+  689  git commit -m "[Mazhar]pseudo code for palindrome"
+  690  git status
+  691  git push origin master
+  701  history | grep git
+  702  history | grep *git*
+  703  history | grep '*git*'
+  704  history | grep '\*git\*'
+  705  history | grep '[git]'
+  706  find . -type f -name "git"
+  708  find . -type f -name git
+  709  history | find -name git
+  710  history | find -name "git"
+  711  history | grep git | awk '{}'
+  712  history | grep git | awk '{print $0}'
+  713  history | grep git | awk -v val=$0 'val=='git'print $0}'
+  714  history | grep git | awk -v val=$0 '{val=="git"}{print $0}'
+  715  history | grep git | awk -v val=$0 '{val=="git"}{print $1}'
+  716  history | grep git | awk -v val=$0 '{val=="git"}{print $0}'
+  717  history | grep git | awk -v val=$2 '{val=="git"}{print $0}'
+  718  history | grep git | awk -v val=$2 '{val=="git"}{print $2}'
+  719  history | grep git | awk -v val=$2 '{$val=="git"}{print $2}'
+  720  history | grep git | awk -v val=$2 '{if $val=="git"{print $0}}'
+  721  history | grep git | awk -v val=$2 '{if $val=="git" {print $0}}'
+  722  history | grep git | awk -v val=$2 '{print val}'
+  723  history | grep git | awk -v val=$3 '{print val}'
+  724  history | grep git
+  725  history | grep git | awk '{print $4}'
+  726  history | grep 'git'
+  727  history | grep git > abc.csv
+  736  cat abc.csv | awk  -v val=$2 'val=="git"{print $2}'
+  744  cat abc.csv | awk   '{if $2=="git" print $2}'
+  745  cat abc.csv | awk   '{if $2=="git" {print $2}}'
+  746  cat abc.csv | awk   '{if ($2=="git") {print $2}}'
+  747  cat abc.csv | awk   '{if ($2=="git") {print $0}}'
+  749  cat data.csv | grep -i git > abcd.csv | awk '{if($2=="git"){print $0}}'
+  751  history | grep -i git > abcd.csv | awk '{if($2=="git"){print $0}}'
+  753  history | grep -i git > abcd.csv | cat abcd.csv | awk '{if($2=="git"){print $0}}'
+  754* history | grep -i git > abcd.csv | cat abcd.csv |
+  755  history | grep -i git > abcd.csv | cat abcd.csv | awk '{if($2=="git"){print $0}}'|grep -ic
+  756  history | grep -i git > abcd.csv | cat abcd.csv | awk '{if($2=="git"){print $0}}'|grep -ic git
+  757  history | grep -i git > abcd.csv | cat abcd.csv | awk '{if($2=="git"){print $0}}'|grep -i git

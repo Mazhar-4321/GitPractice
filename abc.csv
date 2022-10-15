@@ -1,0 +1,81 @@
+  228  git add .
+  229  git status
+  230  git remote add origin https://github.com/Mazhar-4321/AmreenProgramming.git
+  231  git push -u origin main
+  232  git init
+  233  git add YousufProject/
+  234  git commit -m "Second Commit"
+  235  git push -Main
+  236  git branch -M main
+  237  git remote add origin https://github.com/Mazhar-4321/YousufWajahatJava.git
+  238  git push -u origin main
+  239  git add YousufProject/
+  240  git remote add https://github.com/Mazhar-4321/YousufWajahatJava.git
+  241  git remote add YousufProject/ origin https://github.com/Mazhar-4321/YousufWajahatJava.git
+  242  git add .
+  243  git commit -m "Second Commit"
+  244  git remote add origin https://github.com/Mazhar-4321/YousufWajahatJava.git
+  245  git remote add origin https://github.com/Mazhar-4321/YousufWajahatJava.git
+  246  git remote rm origin
+  247  git remote add origin https://github.com/Mazhar-4321/YousufWajahatJava.git
+  248  git push -u origin main
+  249  git init
+  250  git add .
+  251  git commit -m "first commit"
+  252  git branch -M main
+  253  git remote add origin https://github.com/Mazhar-4321/YousufWajahatJava.git
+  254  git push -u origin main
+  275  git 
+  276  git status
+  278  ls *.git
+  279  ls -a *.git
+  291  ls -a *.git
+  303  ls -a .git
+  304  ls -a *.git
+  306  rm -rf .git
+  392  ls -a .git
+  393  git clone https://github.com/edurekavivekh/linux-content.git
+  428  rm -rf .git
+  431  git clone https://github.com/edurekavivekh/linux-content.git
+  669  git add palindrome.txt 
+  670  git status
+  671  git commit -m "[Mazhar]pseudo code for palindrome of a number"
+  672  git checkout -b mazhar
+  673  git merge master
+  676  git status
+  677  git push origin mazhar
+  678  git checkout master
+  679  git push origin master
+  680  git clone https://github.com/Mazhar-4321/GitPractice.git
+  683  git clone https://github.com/Mazhar-4321/GitPractice.git
+  687  git status
+  688  git add palindrome.txt 
+  689  git commit -m "[Mazhar]pseudo code for palindrome"
+  690  git status
+  691  git push origin master
+  701  history | grep git
+  702  history | grep *git*
+  703  history | grep '*git*'
+  704  history | grep '\*git\*'
+  705  history | grep '[git]'
+  706  find . -type f -name "git"
+  708  find . -type f -name git
+  709  history | find -name git
+  710  history | find -name "git"
+  711  history | grep git | awk '{}'
+  712  history | grep git | awk '{print $0}'
+  713  history | grep git | awk -v val=$0 'val=='git'print $0}'
+  714  history | grep git | awk -v val=$0 '{val=="git"}{print $0}'
+  715  history | grep git | awk -v val=$0 '{val=="git"}{print $1}'
+  716  history | grep git | awk -v val=$0 '{val=="git"}{print $0}'
+  717  history | grep git | awk -v val=$2 '{val=="git"}{print $0}'
+  718  history | grep git | awk -v val=$2 '{val=="git"}{print $2}'
+  719  history | grep git | awk -v val=$2 '{$val=="git"}{print $2}'
+  720  history | grep git | awk -v val=$2 '{if $val=="git"{print $0}}'
+  721  history | grep git | awk -v val=$2 '{if $val=="git" {print $0}}'
+  722  history | grep git | awk -v val=$2 '{print val}'
+  723  history | grep git | awk -v val=$3 '{print val}'
+  724  history | grep git
+  725  history | grep git | awk '{print $4}'
+  726  history | grep 'git'
+  727  history | grep git > abc.csv
