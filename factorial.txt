@@ -1,0 +1,5 @@
+1. read n
+2. declare ans=1
+3. loop until n>0
+4. inside loop ans=ans*n and n--
+5.print ans

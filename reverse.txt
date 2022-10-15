@@ -1,0 +1,6 @@
+1. read n
+2. declare rev=0,temp=n
+3. loop until n>0
+4. inside loop rev=rev*10+n%10 and n=n/10
+5.print rev
+
